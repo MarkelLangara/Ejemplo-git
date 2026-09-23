@@ -1,9 +1,18 @@
+import javax.swing.JFrame;
 
-public class ventana {
+public class ventana extends JFrame{
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	
+	public void Ventana() {
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setSize(320, 240);
+		
+		setVisible(true);
 	}
+
 
 }
