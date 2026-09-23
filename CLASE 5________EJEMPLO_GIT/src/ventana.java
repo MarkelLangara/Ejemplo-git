@@ -11,7 +11,11 @@ public class ventana extends JFrame{
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setSize(320, 240);
 		
+		setTitle("Prueba de Git");
+		
+		
 		setVisible(true);
+		
 	}
 
 
